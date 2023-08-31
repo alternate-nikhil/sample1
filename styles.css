@@ -106,8 +106,18 @@ body{
     text-align: center;
 }
 
+.cart-item-image img{
+    width: 50%;
+}
+
+.cart-total{
+    display: inline-block;
+    text-align: right;
+    font-family: 'Righteous', cursive;
+}
+
 .shopping-cart>div{
-    margin-top: 5px;
+    margin: 5% 0;
     border: 1px solid black;
     border-radius: 15px;
     padding: 2%;

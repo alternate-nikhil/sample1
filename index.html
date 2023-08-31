@@ -28,7 +28,7 @@
 
 <body>
     <div class="site-wrapper">
-    <!-- <section id="primary-navbar">
+        <!-- <section id="primary-navbar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,451 +42,607 @@
         </nav>
     </section> -->
 
-    <section id="header">
-        <div class="container-fluid sticky-top">
-            <div class="row header-row">
-                <div class="col header-logo">
-                    <span class="my">My</span><span class="company">Company</span>
-                </div>
-                <div class="col cart">
-                    <button class="btn btn-lg btn-primary cart-btn-inner ">
-                        Cart
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="cart-bell-icon hidden">0</span>
-                    </button>
-                      </div>
-                </div>
-                <div class="cart-dropdown">
-                    <div class="container-fluid shopping-cart">
-
-
-                        <div class="container-fluid">
-                            <div class="row align-items-center">
-                                <div class="col cart-item-image">
-                                    <img src="images/buds.png" alt="">
-                                </div>
-                                <div class="col">
-                                    <div class="row">
-                                        <div class="col">name</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col cart-item-price">20000</div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <button class="btn btn-sm btn-danger">remove</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="container-fluid">
-                            <div class="row align-items-center">
-                                <div class="col cart-item-image">
-                                    <img src="images/lappy.png" alt="">
-                                </div>
-                                <div class="col">
-                                    <div class="row">
-                                        <div class="col">name</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col cart-item-price">40000</div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <button class="btn btn-sm btn-danger">remove</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <span class="cart-total">
-                            <span>Total :</span>
-                            <span class="cart-price">60000</span>
-                        </span>
-
-
-                        
-                    </div>
-                </div>
-        </div>
-    </section>
-
-    <section id="secondary-navbar">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <section id="header">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">MyAccount</a>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <div class="row header-row">
+                    <div class="col header-logo">
+                        <span class="my">My</span><span class="company">Company</span>
+                    </div>
+                    <div class="col cart">
+                        <button class="btn btn-lg btn-primary cart-btn-inner ">
+                            Cart
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="cart-bell-icon">0</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="cart-dropdown displayNone">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">Items</div>
+                            <div class="col-6">
+                                <span class="cart-total">
+                                    <span>Total :</span>
+                                    <span class="cart-price">60000</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid shopping-cart">
+                        <!-- items added from cart goes -->
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="secondary-navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">MyAccount</a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#latest-products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 home-image">
+                        <img src="images/pixel.png" alt="" width="70%">
+                    </div>
+                    <div class="col-lg-6 carousel-container">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item carousel-content active ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eligendi hic delectus reiciendis nam aperiam est porro praesentium consectetur, suscipit quidem voluptate, quam esse atque, quis repudiandae ipsa provident obcaecati.
+                                </div>
+                                <div class="carousel-item carousel-content">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic voluptatem sint quia, ipsam doloremque dignissimos libero sunt officia, unde eos, in quasi. Nisi quas odit odio voluptatibus ullam ratione! Vel.
+                                </div>
+                                <div class="carousel-item carousel-content">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam accusantium excepturi nam culpa dolorem minima quod molestiae eos corrupti eligendi dolorum inventore, ex, veritatis sequi, repellat id aut. Voluptatum, consectetur!
+                                </div>
+                            </div>
+                            <div class="carousel-indicators ">
+                                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container-fluid features-content rotated-section">
+                <div class="rotated-inner-content">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="features-icons col-lg">
+                                <i class="fa-solid fa-rotate"></i>
+                                <div>30 Days Return</div>
+                            </div>
+                            <div class="features-icons col-lg">
+                                <i class="fa-solid fa-truck-monster"></i>
+                                <div>Free Shipping</div>
+                            </div>
+                            <div class="features-icons col-lg">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <div>Secure Payments</div>
+                            </div>
+                            <div class="features-icons col-lg">
+                                <i class="fa-solid fa-gift"></i>
+                                <div>New Products</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-products">
+            <div class="section-heading">Latest Products</div>
+            <div class="latest-product-buttons">
+                <button class="btn btn-outline-warning" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    Prev
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#features">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#latest-products">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+                <button class="btn btn-outline-warning" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    Next
+                </button>
             </div>
-        </nav>
-    </section>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner latest-product-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/tv.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Sony Smart TV - 2023</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹1,19,999</span>
+                                            <span class="prev-price"><del>₹1,49,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/pixel.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Google Pixel 7 Pro</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹69,999</span>
+                                            <span class="prev-price"><del>₹79,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/lappy.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Hp Spectre 360° laptop</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹99,999</span>
+                                            <span class="prev-price"><del>₹1,19,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/buds.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Pixel Earbuds</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹14,999</span>
+                                            <span class="prev-price"><del>₹19,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/ps.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Sony Playstation 6</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹1,49,999</span>
+                                            <span class="prev-price"><del>₹1,69,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-    <section id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6"></div>
-                <div class="col-lg-6 carousel-container">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item carousel-content active ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eligendi hic delectus reiciendis nam aperiam est porro praesentium consectetur, suscipit quidem voluptate, quam esse atque, quis repudiandae ipsa provident obcaecati.
-                          </div>
-                          <div class="carousel-item carousel-content">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic voluptatem sint quia, ipsam doloremque dignissimos libero sunt officia, unde eos, in quasi. Nisi quas odit odio voluptatibus ullam ratione! Vel.
-                          </div>
-                          <div class="carousel-item carousel-content">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam accusantium excepturi nam culpa dolorem minima quod molestiae eos corrupti eligendi dolorum inventore, ex, veritatis sequi, repellat id aut. Voluptatum, consectetur!
-                          </div>
                         </div>
-                        <div class="carousel-indicators ">
-                            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                          </div>
-                      </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/tv.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Sony Smart TV - 2023</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹1,19,999</span>
+                                            <span class="prev-price"><del>₹1,49,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/pixel.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Google Pixel 7 Pro</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹69,999</span>
+                                            <span class="prev-price"><del>₹79,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/lappy.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Hp Spectre 360° laptop</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹99,999</span>
+                                            <span class="prev-price"><del>₹1,19,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/buds.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Pixel Earbuds</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹14,999</span>
+                                            <span class="prev-price"><del>₹19,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/ps.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Sony Playstation 6</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹1,49,999</span>
+                                            <span class="prev-price"><del>₹1,69,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/tv.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Sony Smart TV - 2023</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹1,19,999</span>
+                                            <span class="prev-price"><del>₹1,49,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/pixel.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Google Pixel 7 Pro</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹69,999</span>
+                                            <span class="prev-price"><del>₹79,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/lappy.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Hp Spectre 360° laptop</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹99,999</span>
+                                            <span class="prev-price"><del>₹1,19,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/buds.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Pixel Earbuds</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹14,999</span>
+                                            <span class="prev-price"><del>₹19,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <img class="latest-products-image" src="images/ps.png" alt="lappy-png">
+                                    <div class="product-description">
+                                        <div class="product-name">Sony Playstation 6</div>
+                                        <div class="product-price">
+                                            <span class="discount-price">₹1,49,999</span>
+                                            <span class="prev-price"><del>₹1,69,999</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="features">
-        <div class="container-fluid features-content rotated-section">
-            <div class="rotated-inner-content">
-                <div class="container-fluid">
-                    <div class="row ">
-                        <div class="features-icons col-lg">
-                            <i class="fa-solid fa-rotate"></i>
-                            <div>30 Days Return</div>
-                        </div>
-                        <div class="features-icons col-lg">
-                            <i class="fa-solid fa-truck-monster"></i>
-                            <div>Free Shipping</div>
-                        </div>
-                        <div class="features-icons col-lg">
-                            <i class="fa-solid fa-money-check-dollar"></i>
-                            <div>Secure Payments</div>
-                        </div>
-                        <div class="features-icons col-lg">
-                            <i class="fa-solid fa-gift"></i>
-                            <div>New Products</div>
+            </div>
+        </section>
+
+        <section id="brands">
+            <div class="container-fluid brand-content rotated-section">
+                <div class="rotated-inner-content">
+                    <div class="section-heading">Brands</div>
+                    <div class="container-fluid brands-container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/brands/Gpixel.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="images/brands/hp.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="images/brands/psLogo.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="images/brands/sony.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="latest-products">
-        <div class="section-heading">Latest Products</div>
-        <div class="latest-product-buttons">
-            <button class="btn btn-outline-warning" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                Prev
-              </button>
-              <button class="btn btn-outline-warning" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                Next
-              </button>
-        </div>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner latest-product-inner">
-              <div class="carousel-item active">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/tv.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Sony Smart TV - 2023</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹1,19,999</span>
-                                    <span class="prev-price"><del>₹1,49,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/pixel.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Google Pixel 7 Pro</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹69,999</span>
-                                    <span class="prev-price"><del>₹79,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/lappy.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Hp Spectre 360° laptop</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹99,999</span>
-                                    <span class="prev-price"><del>₹1,19,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/buds.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Pixel Earbuds</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹14,999</span>
-                                    <span class="prev-price"><del>₹19,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/ps.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Sony Playstation 6</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹1,49,999</span>
-                                    <span class="prev-price"><del>₹1,69,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/tv.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Sony Smart TV - 2023</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹1,19,999</span>
-                                    <span class="prev-price"><del>₹1,49,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/pixel.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Google Pixel 7 Pro</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹69,999</span>
-                                    <span class="prev-price"><del>₹79,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/lappy.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Hp Spectre 360° laptop</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹99,999</span>
-                                    <span class="prev-price"><del>₹1,19,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/buds.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Pixel Earbuds</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹14,999</span>
-                                    <span class="prev-price"><del>₹19,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/ps.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Sony Playstation 6</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹1,49,999</span>
-                                    <span class="prev-price"><del>₹1,69,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/tv.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Sony Smart TV - 2023</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹1,19,999</span>
-                                    <span class="prev-price"><del>₹1,49,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/pixel.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Google Pixel 7 Pro</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹69,999</span>
-                                    <span class="prev-price"><del>₹79,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/lappy.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Hp Spectre 360° laptop</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹99,999</span>
-                                    <span class="prev-price"><del>₹1,19,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/buds.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Pixel Earbuds</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹14,999</span>
-                                    <span class="prev-price"><del>₹19,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <img class="latest-products-image" src="images/ps.png" alt="lappy-png">
-                            <div class="product-description">
-                                <div class="product-name">Sony Playstation 6</div>
-                                <div class="product-price">
-                                    <span class="discount-price">₹1,49,999</span>
-                                    <span class="prev-price"><del>₹1,69,999</del></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               
-                </div>
-              </div>
-            </div>
-           
-          </div>
-    </section>
+        <section id="recommendations">
+            <h1 class="section-heading">Buy Our Products</h1>
+            <div class="container-fluid">
 
-    <section id="brands">
-        <div class="container-fluid brand-content rotated-section">
-            <div class="rotated-inner-content">
-                <div class="section-heading">Brands</div>
-                <div class="container-fluid brands-container">
-                    <div class="row">
-                        <div class="col">
-                            <img src="images/brands/Gpixel.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="images/brands/hp.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="images/brands/psLogo.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="images/brands/sony.png" alt="">
+                <div class="row justify-content-between">
+                    <div class="col-5 recommendations-sub-headings">
+                        <div class="row">
+                            <div class="col-8">Recently Viewed</div>
+                            <div class="col"><button class="btn btn-sm btn-success">view all</button></div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="col-5 recommendations-sub-headings">
+                        <div class="row">
+                            <div class="col-8">Top Sellers</div>
+                            <div class="col"><button class="btn btn-sm btn-success">view all</button></div>
+                        </div>
 
-    <section id="recommendations">
-        <h1 class="section-heading">Buy Our Products</h1>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col recommendations-sub-headings">
-                    Recently viewed
+                    </div>
                 </div>
-                <div class="col recommendations-sub-headings">
-                    Top Sellers
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <div class="row align-items-center shop-item">
+                            <div class="col">
+                                <img src="images/pixel.png" alt="" width="80%">
+                            </div>
+                            <div class="col product-rating-desc">
+                                <div class="shop-item-name">Google Pixel</div>
+                                <div class="star-emoji">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="product-price">
+                                    <span>₹</span>
+                                    <span class="discount-price">49999</span>
+                                    <span class="prev-price"><del>59999</del></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-success add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="row align-items-center shop-item">
+                            <div class="col">
+                                <img src="images/ps.png" alt="" width="80%">
+                            </div>
+                            <div class="col product-rating-desc">
+                                <div class="shop-item-name">Play Station 6</div>
+                                <div class="star-emoji">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="product-price">
+                                    <span>₹</span>
+                                    <span class="discount-price">119999</span>
+                                    <span class="prev-price"><del>149999</del></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-success add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <div class="row align-items-center shop-item">
+                            <div class="col">
+                                <img src="images/pixel.png" alt="" width="80%">
+                            </div>
+                            <div class="col product-rating-desc">
+                                <div class="shop-item-name">Google Pixel</div>
+                                <div class="star-emoji">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="product-price">
+                                    <span>₹</span>
+                                    <span class="discount-price">49999</span>
+                                    <span class="prev-price"><del>59999</del></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-success add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="row align-items-center shop-item">
+                            <div class="col">
+                                <img src="images/lappy.png" alt="" width="80%">
+                            </div>
+                            <div class="col product-rating-desc">
+                                <div class="shop-item-name">HP laptop</div>
+                                <div class="star-emoji">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="product-price">
+                                    <span>₹</span>
+                                    <span class="discount-price">69999</span>
+                                    <span class="prev-price"><del>99999</del></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-success add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <div class="row align-items-center shop-item">
+                            <div class="col">
+                                <img src="images/buds.png" alt="" width="80%">
+                            </div>
+                            <div class="col product-rating-desc">
+                                <div class="shop-item-name">Pixel Buds</div>
+                                <div class="star-emoji">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="product-price">
+                                    <span>₹</span>
+                                    <span class="discount-price">14999</span>
+                                    <span class="prev-price"><del>17999</del></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-success add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="row align-items-center shop-item">
+                            <div class="col">
+                                <img src="images/tv.png" alt="" width="80%">
+                            </div>
+                            <div class="col product-rating-desc">
+                                <div class="shop-item-name">Sony Smart TV</div>
+                                <div class="star-emoji">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="product-price">
+                                    <span>₹</span>
+                                    <span class="discount-price">179999</span>
+                                    <span class="prev-price"><del>299999</del></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-success add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="row align-items-center shop-item">
-                        <div class="col">
-                            <img src="images/pixel.png" alt="" width="80%">
-                        </div>
-                        <div class="col product-rating-desc">
-                            <div class="shop-item-name">Google Pixel</div>
-                            <div class="star-emoji">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+        </section>
+
+        <section id="contact">
+            <div class="contact-rotated rotated-section">
+                <div class="rotated-inner-content contact-content">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <h1><span class="company">My</span><span class="my">Company</span></h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus perferendis eaque dignissimos repellendus debitis consectetur id laudantium, voluptas natus error atque corrupti, quasi ullam voluptatum impedit fuga ipsa
+                                </p>
+                                <div class="contact-social-icons">
+                                    <div><i class="fa-brands fa-square-facebook"></i></div>
+                                    <div><i class="fa-brands fa-square-x-twitter"></i></div>
+                                    <div><i class="fa-brands fa-square-youtube"></i></div>
+                                    <div><i class="fa-brands fa-linkedin"></i></div>
+                                    <div><i class="fa-brands fa-square-pinterest"></i></div>
+                                </div>
+
                             </div>
-                            <div class="product-price">
-                                <span class="discount-price">₹1,19,999</span>
-                                <span class="prev-price"><del>₹1,49,999</del></span>
+                            <div class="col">
+                                <h1>User Navigation</h1>
+                                <p>My account</p>
+                                <hr>
+                                <p>Order history</p>
+                                <hr>
+                                <p>Wishlist</p>
+                                <hr>
+                                <p>Vendor contact</p>
+                                <hr>
+                                <p>Front page</p>
+                                <hr>
                             </div>
-                        </div>
-                        <div class="col">
-                            <button class="btn btn-sm btn-success add-btn">Add</button>
+                            <div class="col">
+                                <h1>Categories</h1>
+                                <p>Mobile Phones</p>
+                                <hr>
+                                <p>Led TV</p>
+                                <hr>
+                                <p>Gadgets</p>
+                                <hr>
+                                <p>Computer</p>
+                                <hr>
+                                <p>Accessories</p>
+                                <hr>
+                            </div>
+                            <div class="col">
+                                <h1>Newsletter</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, rerum tempore. Mollitia numquam ut veniam nemo porro cumque consectetur ea.
+                                </p>
+                                <div>
+                                    <input type="text" placeholder="Enter Your Email">
+                                </div>
+                                <div>
+                                    <button class="btn btn-info">SUBSCRIBE</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="row align-items-center shop-item">
-                        <div class="col">
-                            <img src="images/ps.png" alt="" width="80%">
-                        </div>
-                        <div class="col product-rating-desc">
-                            <div class="shop-item-name">Play Station 6</div>
-                            <div class="star-emoji">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <div class="product-price">
-                                <span class="discount-price">₹1,19,999</span>
-                                <span class="prev-price"><del>₹1,49,999</del></span>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <button class="btn btn-sm btn-success add-btn">Add</button>
-                        </div>
-                    </div>
+
                 </div>
             </div>
-        </div>    
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="contact-content rotated-section">
-            <div class="rotated-inner-content">
-                contact
+        <section id="footer">
+            <div class="footer-div">
+                <div>
+                    ©<span class="my">MyCompany</span> 2023. Made with ♥ by Nikhil
+                </div>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-discover"></i>
+                </div>
             </div>
-        </div>
-    </section>
 
-    <section id="footer">
-        footer
-    </section>
-    
-</div>
+        </section>
 
-<script src="index.js"></script>
+    </div>
+
+    <script src="index.js"></script>
 </body>
-
+<!-- @nikhil wadhwa -->
 </html>

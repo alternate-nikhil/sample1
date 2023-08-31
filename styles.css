@@ -41,6 +41,8 @@ body{
 
 .rotated-inner-content{
     transform: rotate(-1.5deg);
+    position: relative;
+    right: 30px;
 }
 
 /* header section */
@@ -66,7 +68,6 @@ body{
     text-align: right;
     margin: auto 0;
 }
-
 
 
 .cart-btn-inner{
@@ -127,6 +128,12 @@ body{
 /* Navbar */
 
 /* home section */
+
+.home-image{
+    position: relative;
+    left: 130px;
+    top: 30px;
+}
 
 /* home carousel */
 
@@ -223,7 +230,7 @@ body{
 /* recommendations section */
 
 #recommendations{
-    padding: 3% 15% 7%;
+    padding: 3% 15% 10%;
     text-align: center;
 }
 
@@ -251,8 +258,48 @@ body{
     background-color: #000;
 }
 
+.contact-rotated{
+    background-color: midnightblue;
+}
+
 .contact-content{
-    background-color: rgb(75, 72, 72);
+    padding: 3% 2%;
+    text-align: left;
+    color: darkgray;
+}
+
+.contact-content h1{
+    margin-bottom: 10%;
+}
+
+.contact-content p{
+    font-weight: 200;
+}
+
+.contact-content .col{
+    margin: 0 1%;
+}
+
+.contact-content input{
+    padding: 2%;
+}
+
+.contact-content button{
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #F86F03;
+    border: none;
+}
+
+.contact-social-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-social-icons div{ 
+    font-size: 3rem;
+    color: #F86F03;
 }
 
 /* footer section */
@@ -260,7 +307,16 @@ body{
 #footer{
     background-color: #000;
     color: white;
-    height: 150px;
+    padding: 5% 3%;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons{
+    font-size: 2.3rem;
 }
 
 

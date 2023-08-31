@@ -8,6 +8,7 @@ body{
 
 /* misc */
 
+
 .hidden{
     visibility: hidden;
 }
@@ -22,7 +23,7 @@ body{
 
 .section-heading{
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 3rem;
     padding-bottom: 5%;
 }
@@ -90,7 +91,7 @@ body{
 
 .cart-dropdown{
     text-align: center;
-    width: 20%;
+    width: 30%;
     background-color: #f3a023;
     position: absolute;
     top: 90px;
@@ -218,6 +219,20 @@ body{
 
 #recommendations .row{
     margin-top: 2%;
+}
+
+.recommendations-sub-headings{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+
+.product-rating-desc{
+    text-align: left;
+}
+
+.star-emoji{
+    color: gold;
 }
 
 /* contact section  */
